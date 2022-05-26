@@ -1,0 +1,543 @@
+<panotour version="2.3.2.400">
+ <project startSoundsON="true" startChangeCursor="true" workspaceOriginX="-1" workspaceOriginY="-1" startMouseType="moveto" startZoomOnCursor="false" startVolume="100" autorotationSpeed="5" startWithLittlePlanet="false" autorotationDelay="1" startTouchType="drag2d" autorotationDirection="right" workspaceScale="-1" autotourMode="autotourModeFull" workspaceHeight="682" startControlsHidden="false" hideControlsDuringIntroduction="true" relativePath="True" objectId="0" workspaceWidth="1414">
+  <description backgroundAlpha="255" foregroundColor="#000000" backgroundColor="#ffffff" name="New Project" foregroundAlpha="255"/>
+  <group x="0" y="0" thumbMode="False" objectId="663" explicit="False">
+   <description backgroundAlpha="255" foregroundColor="#ffffff" backgroundColor="#808080" name="Group 663" foregroundAlpha="255"/>
+   <pano tourDirectory="_360_rgb_color_662" x="-1" y="-1" maxPixelZoom="true" planar="false" vFov="180" lowres="true" startFov="90" minFov="1" hFov="360" maxFov="90" heading="0" phi="0" startYaw="0" dontGenerateTiles="false" startPitch="0" type="0" objectId="662">
+    <description backgroundAlpha="255" foregroundColor="#000000" backgroundColor="#ffffff" name="360.RGB_color" foregroundAlpha="255" filename="../Downloads/360.RGB_color.jpg"/>
+    <spot x="69.8725" y="32.8212" relativeX="0.49915" relativeY="0.504283" type="polygon" objectId="678">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/08.Гость.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.4796901568108823" y="0.5337902151151723"/>
+     <point x="0.4796901568108823" y="0.474776318294308"/>
+     <point x="0.5181371622898168" y="0.474776318294308"/>
+     <point x="0.5186094842244474" y="0.5337902151151723"/>
+    </spot>
+    <spot x="85.307" y="35.4965" relativeX="0.602047" relativeY="0.539954" type="polygon" objectId="680">
+     <description tooltip="фото 2"/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/02.Пробуждение.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.5843182473335256" y="0.5651418645049219"/>
+     <point x="0.590948400115307" y="0.5014475969889982"/>
+     <point x="0.6197751513404439" y="0.4985524030110017"/>
+     <point x="0.6134332660709139" y="0.5813549507817024"/>
+    </spot>
+    <spot x="103.244" y="31.2688" relativeX="0.721625" relativeY="0.483583" type="polygon" objectId="681">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/25.Свет над Вилюем.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.6870621205044372" y="0.5436210131332082"/>
+     <point x="0.6837926202709015" y="0.4366791744840525"/>
+     <point x="0.7561886968706212" y="0.4235459662288931"/>
+     <point x="0.759458197104157" y="0.5403377110694184"/>
+    </spot>
+    <spot x="20.3058" y="33.1122" relativeX="0.168705" relativeY="0.508163" type="polygon" objectId="682">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/05.ДумыЯкута.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.1539245667686035" y="0.4408163265306123"/>
+     <point x="0.1437308868501529" y="0.5551020408163265"/>
+     <point x="0.1834862385321101" y="0.5755102040816327"/>
+     <point x="0.1936799184505607" y="0.4448979591836735"/>
+    </spot>
+    <spot x="36.6667" y="31.5051" relativeX="0.277778" relativeY="0.486735" type="polygon" objectId="683">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/23.Лесорубы.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.2405708460754332" y="0.5244897959183673"/>
+     <point x="0.2436289500509684" y="0.4326530612244898"/>
+     <point x="0.3149847094801223" y="0.4469387755102041"/>
+     <point x="0.309887869520897" y="0.536734693877551"/>
+     <point x="0.2426095820591233" y="0.5408163265306123"/>
+    </spot>
+    <spot x="50.581" y="34.6429" relativeX="0.37054" relativeY="0.528571" type="polygon" objectId="684">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/17.На_заре_новой_жизни.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.3547400611620795" y="0.5775510204081633"/>
+     <point x="0.3527013251783894" y="0.4795918367346939"/>
+     <point x="0.381243628950051" y="0.4857142857142857"/>
+     <point x="0.3883792048929664" y="0.5714285714285714"/>
+    </spot>
+    <spot x="56.4192" y="34.6588" relativeX="0.409461" relativeY="0.528785" type="polygon" objectId="685">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/11.КоневодамЯкутии.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.406094968107725" y="0.5650319829424307"/>
+     <point x="0.4213323883770376" y="0.5600568585643213"/>
+     <point x="0.4153082919914954" y="0.496090973702914"/>
+     <point x="0.3975903614457831" y="0.4925373134328358"/>
+    </spot>
+    <spot x="64.1797" y="33.0064" relativeX="0.461198" relativeY="0.506752" type="polygon" objectId="686">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/15.Пора_сенокосная.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.4507441530829199" y="0.5287846481876333"/>
+     <point x="0.4518072289156627" y="0.4840085287846482"/>
+     <point x="0.4716513111268604" y="0.4840085287846482"/>
+     <point x="0.4716513111268604" y="0.5294953802416489"/>
+    </spot>
+    <spot x="76.2987" y="33.1397" relativeX="0.541991" relativeY="0.508529" type="polygon" objectId="687">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/03.Тусулгэ.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.5279943302622254" y="0.5287846481876333"/>
+     <point x="0.5552799433026222" y="0.5280739161336177"/>
+     <point x="0.5559886605244507" y="0.4896943852167733"/>
+     <point x="0.5283486888731396" y="0.488272921108742"/>
+    </spot>
+    <spot x="123.598" y="34.6074" relativeX="0.85732" relativeY="0.528099" type="polygon" objectId="710">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/27.ГазЯкутии.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.8375257731958763" y="0.5859504132231405"/>
+     <point x="0.8857731958762887" y="0.5628099173553719"/>
+     <point x="0.8742268041237113" y="0.4702479338842975"/>
+     <point x="0.8288659793814434" y="0.4702479338842975"/>
+    </spot>
+    <spot x="134.239" y="33.0631" relativeX="0.928263" relativeY="0.507508" type="polygon" objectId="711">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/04.ТоржествоЛета.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.9237300330982875" y="0.5399942246606988"/>
+     <point x="0.942006044035113" y="0.5278660121282125"/>
+     <point x="0.9346668585407972" y="0.4761767253826162"/>
+     <point x="0.9145200748309109" y="0.4750216575223795"/>
+    </spot>
+    <spot x="8.52693" y="32.2384" relativeX="0.0901796" relativeY="0.496512" type="polygon" objectId="712">
+     <description/>
+     <presetAction id="user_defaultpolygon0">
+      <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+       <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+       <filechooser default="../Downloads/OneDrive_1_03.05.2022/Моя Якутия/07.Счастье.jpg" uiPreview="false" customize="true" isCustomized="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+       <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+        <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+       </size>
+       <advanced uiPreview="false" customize="false" id="advancedParameters">
+        <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+        <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+       </advanced>
+      </action>
+     </presetAction>
+     <point x="0.07359712230215865" y="0.5256816740646798"/>
+     <point x="0.0953911842099287" y="0.5396322130627774"/>
+     <point x="0.1067619991183305" y="0.4533925174381738"/>
+     <point x="0.08275694542281563" y="0.4578313253012048"/>
+    </spot>
+   </pano>
+  </group>
+  <build headsetTour="false" baseDir="C:\Users\Хамидов Ахлиддин\Pictures" imgJpegQuality="9" displayErrors="true" exportComments="true" htmlTemplate="fullpage.html" encryptConfig="false" html5Tour="true" desktopTour="true" mobilesTour="true" iBookTour="false" flashTour="true" filename="ркрееко" useMultiResolution="true"/>
+  <plugins/>
+  <author url="" objectId="1">
+   <description/>
+  </author>
+  <tooltipstyle fontfamily="Arial" borderwidth="0" displayBackground="false" fontsize="14" shadowed="true" roundedge="0" fontstyle="bold">
+   <foregroundColor alpha="1" source="customColor" color="#ffffff"/>
+   <backgroundColor alpha="1" source="customColor" color="#aeaeae"/>
+   <borderColor alpha="1" source="customColor" color="#ffffff"/>
+   <shadowColor alpha="1" source="customColor" color="#000000"/>
+  </tooltipstyle>
+  <presetActions>
+   <presetAction isDefault="True" locked="False" type="actionicon" timestamp="0" id="user_defaultpoint0" objectId="0" spotType="point">
+    <description description="tr:This is the default preset for point spots" previewFile="C:/Program Files/Kolor/Panotour Pro 2.3/Resources/spots/classic/hotspot_neutral.png" name="споты "/>
+    <display type="point">
+     <bool default="True" uiPreview="false" customize="false" id="fileorlib" name="Use icon from library"/>
+     <filechooser default="" conditionalParam="fileorlib" conditionalValues="false" uiPreview="false" customize="false" id="icon" allowRemote="true" name="Icon file" allowEmpty="false" filters="images,flash"/>
+     <spoticonchooser default="theme02|tr:Neutral|image" conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="iconChooser" name="Icon" allowSequences="true"/>
+     <row conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="rowcolor">
+      <bool default="False" uiPreview="false" customize="false" id="customcolor" name="Custom color"/>
+      <color default="#fdc400" conditionalParam="customcolor" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="iconcolor" source="customColor" name="Color" defaultAlpha="1"/>
+     </row>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="Size">
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="width" name="Width"/>
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="height" name="Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="False" uiPreview="false" customize="false" id="zoom" name="Change size according to zoom level"/>
+      <bool default="False" uiPreview="false" customize="false" id="alphaonhover" name="Change transparency on over"/>
+      <bool default="False" uiPreview="false" customize="false" id="scaleonhover" name="Scale on over"/>
+      <number suffix=" °" default="0" minimum="0" maximum="360" uiPreview="false" customize="false" id="rotationAngle" name="Rotation angle"/>
+      <select default="center" uiPreview="false" customize="false" id="anchor" name="Anchor position">
+       <item value="center" name="Center"/>
+       <item value="bottom" name="Bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action startPitch="0" targetId="-1" category="basic" description="Load a specific panorama or the first panorama of a specific group." callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="0" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+     <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+      <item value="none" name="None"/>
+      <item value="zoominonspot" name="Zoom in on the spot"/>
+      <item value="zoomoutonpanorama" name="Zoom out"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+      <item value="none" name="None"/>
+      <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+      <item value="loadspotview" name="Load custom view"/>
+      <item value="loadpanoview" name="Load panorama view"/>
+      <item value="panoviewtospotview" name="Panorama view to custom view"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionlensflare" timestamp="0" id="user_defaultlensflare0" objectId="0" spotType="lensflare">
+    <description description="tr:This is the default preset for lensflares" previewFile=":/UI/spotlensflarepreview.png" name="Default Lensflare Style 1"/>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actioniconmap" timestamp="0" id="user_defaultmap0" objectId="0" spotType="pointmap">
+    <description description="tr:This is the default preset" previewFile="C:/Program Files/Kolor/Panotour Pro 2.3/Resources/spots/classic/hotspot_neutral.png" name="Default Map Spot Style 1"/>
+    <display type="pointmap">
+     <bool default="True" uiPreview="false" customize="false" id="fileorlib" name="Use icon from library"/>
+     <filechooser default="" conditionalParam="fileorlib" conditionalValues="false" uiPreview="false" customize="false" id="icon" allowRemote="true" name="Icon file" allowEmpty="false" filters="images,flash"/>
+     <spoticonchooser default="theme02|tr:Neutral|image" conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="iconChooser" name="Icon" allowSequences="false"/>
+     <row conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="rowcolor">
+      <bool default="False" uiPreview="false" customize="false" id="customcolor" name="Custom color"/>
+      <color default="#fdc400" conditionalParam="customcolor" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="iconcolor" source="customColor" name="Color" defaultAlpha="1"/>
+     </row>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="Size">
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="width" name="Width"/>
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="height" name="Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <select default="center" uiPreview="false" customize="false" id="anchor" name="Anchor position">
+       <item value="center" name="Center"/>
+       <item value="bottom" name="Bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action startPitch="0" targetId="-1" category="basic" description="Load a specific panorama or the first panorama of a specific group." callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="0" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+     <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+      <item value="none" name="None"/>
+      <item value="zoomoutonpanorama" name="Zoom out"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+      <item value="none" name="None"/>
+      <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+      <item value="loadspotview" name="Load custom view"/>
+      <item value="loadpanoview" name="Load panorama view"/>
+      <item value="panoviewtospotview" name="Panorama view to custom view"/>
+     </select>
+    </action>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionrectpicture" timestamp="0" id="user_defaultimage0" objectId="0" spotType="rectpicture">
+    <description description="tr:This is the default preset for picture hotspots" previewFile=":/UI/spotpicturepreview.png" name="Default Picture Spot Style 1"/>
+    <display type="rectpicture">
+     <bool default="False" uiPreview="false" customize="false" id="flyonclick" name="Maximize picture on click"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" conditionalParam="flyonclick" conditionalValues="true" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="flyingwidth" name="Maximized width"/>
+     <dimension default="0" minimum="0" currentUnit="pixel" conditionalParam="flyonclick" conditionalValues="true" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="flyingheight" name="Maximized height"/>
+     <bool default="False" conditionalParam="flyonclick" conditionalValues="true" uiPreview="false" customize="false" id="hiddenwhennotflying" name="Hidden when not maximized"/>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="False" uiPreview="false" customize="false" id="parallax" name="Parallax effect"/>
+      <select default="0.5" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxstrength" name="Parallax strength">
+       <item value="0.25" name="Small"/>
+       <item value="0.5" name="Medium"/>
+       <item value="0.75" name="Large"/>
+       <item value="1.00" name="Maximum"/>
+      </select>
+      <select default="rotation" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxmode" name="Parallax mode">
+       <item value="rotation" name="Move in same direction as the sphere"/>
+       <item value="displacement" name="Move in opposite direction of the sphere"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action category="" description="" callTemplate="" depends="" locked="False" type="" id="none" name="" internal="0" contentTemplate=""/>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionpolygon" timestamp="0" id="user_defaultpolygon0" objectId="0" spotType="polygon">
+    <description description="tr:This is the default preset for polygon hotspots" previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style 1"/>
+    <display type="polygon">
+     <select default="always" uiPreview="false" customize="false" id="displayedwhen" name="Hotspots displayed">
+      <item value="always" name="Always"/>
+      <item value="onhover" name="On hover"/>
+      <item value="never" name="Never"/>
+     </select>
+     <color default="#ffffff" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="bordercolor" source="customColor" name="Border color" defaultAlpha="1"/>
+     <dimension default="1" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="borderwidth" name="Border width"/>
+     <color default="#ffffff" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="fillcolor" source="customColor" name="Fill color" defaultAlpha="0.4"/>
+     <group conditionalParam="displayedwhen" conditionalValues="always" uiPreview="false" customize="false" id="displayedWhenAlwaysGrp" name="Display options on hover state">
+      <bool default="False" uiPreview="false" customize="false" id="alwayshoverstate" name="Change display on hover"/>
+      <color default="#ffffff" conditionalParam="alwayshoverstate" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="bordercolorhover" source="customColor" name="Border color on hover" defaultAlpha="1"/>
+      <dimension default="4" minimum="0" currentUnit="pixel" conditionalParam="alwayshoverstate" conditionalValues="true" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="borderwidthhover" name="Border width on hover"/>
+      <color default="#ffffff" conditionalParam="alwayshoverstate" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="fillcolorhover" source="customColor" name="Fill color on hover" defaultAlpha="0.6"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+     <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+     <filechooser default="" uiPreview="false" customize="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+      <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+      <dimension default="1000" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedParameters">
+      <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+      <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+     </advanced>
+    </action>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionsound" timestamp="0" id="user_defaultsound0" objectId="0" spotType="sound">
+    <description description="tr:This is the default preset for sound hotspots" previewFile=":/UI/spotsoundpreview.png" name="Default Sound Spot Style 1"/>
+    <display type="sound">
+     <bool default="True" uiPreview="false" customize="false" id="endless" name="Endless sound"/>
+     <number suffix="" default="1" minimum="1" conditionalParam="endless" conditionalValues="false" maximum="9999" uiPreview="false" customize="false" id="loops" name="Number of loops"/>
+     <number suffix=" °" default="90" minimum="0" maximum="360" uiPreview="false" customize="false" id="range" name="Sound Range"/>
+    </display>
+   </presetAction>
+   <presetAction isDefault="True" locked="False" type="actionrectvideo" timestamp="0" id="user_defaultvideo0" objectId="0" spotType="rectvideo,livepano">
+    <description description="tr:This is the default preset for video hotspots" previewFile=":/UI/spotvideopreview.png" name="Default Video Spot Style 1"/>
+    <display type="rectvideo">
+     <bool default="True" uiPreview="false" customize="false" id="loop" name="Loop when reaching end"/>
+     <bool default="False" uiPreview="false" customize="false" id="pausedonstart" name="Paused on start"/>
+     <bool default="False" uiPreview="false" customize="false" id="controlsplaypause" name="Display Play and Pause buttons over the video"/>
+     <bool default="True" uiPreview="false" customize="false" id="directionalsound" name="Directional sound"/>
+     <number suffix=" °" default="90" minimum="0" conditionalParam="directionalsound" conditionalValues="true" maximum="360" uiPreview="false" customize="false" id="range" name="Sound Range"/>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="True" uiPreview="false" customize="false" id="useloaderanimation" name="Display a loading animation before the video is displayed"/>
+      <bool default="True" uiPreview="false" customize="false" id="pausebackgroundsound" name="Pause other sounds when video is playing"/>
+      <bool default="False" uiPreview="false" customize="false" id="parallax" name="Parallax effect"/>
+      <select default="0.5" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxstrength" name="Parallax strength">
+       <item value="0.25" name="Small"/>
+       <item value="0.5" name="Medium"/>
+       <item value="0.75" name="Large"/>
+       <item value="1.00" name="Maximum"/>
+      </select>
+      <select default="rotation" conditionalParam="parallax" conditionalValues="true" uiPreview="false" customize="false" id="parallaxmode" name="Parallax mode">
+       <item value="rotation" name="Move in same direction as the sphere"/>
+       <item value="displacement" name="Move in opposite direction of the sphere"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action category="" description="" callTemplate="" depends="" locked="False" type="" id="none" name="" internal="0" contentTemplate=""/>
+   </presetAction>
+   <presetAction isDefault="False" locked="False" type="actionicon" timestamp="0" id="user_defaultpoint1" objectId="0" spotType="point">
+    <description description="tr:This is the default preset for point spots" previewFile=":/UI/spotpointpreview.png" name="фото "/>
+    <display type="point">
+     <bool default="True" uiPreview="false" customize="false" id="fileorlib" name="Use icon from library"/>
+     <filechooser default="" conditionalParam="fileorlib" conditionalValues="false" uiPreview="false" customize="false" id="icon" allowRemote="true" name="Icon file" allowEmpty="false" filters="images,flash"/>
+     <spoticonchooser default="theme01|tr:Image|sequence" conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="iconChooser" name="Icon" allowSequences="true"/>
+     <row conditionalParam="fileorlib" conditionalValues="true" uiPreview="false" customize="false" id="rowcolor">
+      <bool default="False" uiPreview="false" customize="false" id="customcolor" name="Custom color"/>
+      <color default="#fdc400" conditionalParam="customcolor" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="iconcolor" source="customColor" name="Color" defaultAlpha="1"/>
+     </row>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="Size">
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="width" name="Width"/>
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="height" name="Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedGrp">
+      <bool default="False" uiPreview="false" customize="false" id="zoom" name="Change size according to zoom level"/>
+      <bool default="False" uiPreview="false" customize="false" id="alphaonhover" name="Change transparency on over"/>
+      <bool default="False" uiPreview="false" customize="false" id="scaleonhover" name="Scale on over"/>
+      <number suffix=" °" default="0" minimum="0" maximum="360" uiPreview="false" customize="false" id="rotationAngle" name="Rotation angle"/>
+      <select default="center" uiPreview="false" customize="false" id="anchor" name="Anchor position">
+       <item value="center" name="Center"/>
+       <item value="bottom" name="Bottom"/>
+      </select>
+     </advanced>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action category="basic" description="tr:Display an image" callTemplate="displayimagecall.tmpl" depends="pauseautorotation,resumeautorotation" locked="False" type="Plugin" id="displayinternalimage" name="tr:Display an image" internal="0" contentTemplate="displayimagecontent.tmpl">
+     <position availableValues="topleft,topright,bottomleft,bottomright,top,bottom,left,right,center" needOrientation="false" x="0" y="0" xUnit="pixel" default="center" yUnit="pixel" uiPreview="false" customize="false" yUnits="pixel" defaultOrientation="horizontal" xUnits="pixel" id="position" name="tr:Position"/>
+     <filechooser default="" uiPreview="false" customize="true" id="file" allowRemote="true" name="tr:File" allowEmpty="false" filters="images,flash"/>
+     <size uiPreview="false" customize="false" needKeepRatio="false" id="size" name="tr:Size">
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="width" name="tr:Width"/>
+      <dimension default="0" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="percent,pixel" needAutomatic="false" id="height" name="tr:Height"/>
+     </size>
+     <advanced uiPreview="false" customize="false" id="advancedParameters">
+      <bool default="False" description="tr:Pauses the autorotation while the image is displayed" uiPreview="false" customize="false" id="stoprotation" name="tr:Pause autorotation when opened"/>
+      <bool default="False" uiPreview="false" customize="false" id="maximizeanimation" name="tr:Zoom effect when opening the image (it works only if you set a size to the image)"/>
+     </advanced>
+    </action>
+   </presetAction>
+   <presetAction isDefault="False" locked="False" type="actionpolygon" timestamp="0" id="user_defaultpolygon1" objectId="0" spotType="polygon">
+    <description description="tr:This is the default preset for polygon hotspots" previewFile=":/UI/spotpolygonpreview.png" name="Default Polygon Spot Style 2"/>
+    <display type="polygon">
+     <select default="always" uiPreview="false" customize="false" id="displayedwhen" name="Hotspots displayed">
+      <item value="always" name="Always"/>
+      <item value="onhover" name="On hover"/>
+      <item value="never" name="Never"/>
+     </select>
+     <color default="#ffffff" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="bordercolor" source="customColor" name="Border color" defaultAlpha="1"/>
+     <dimension default="1" minimum="0" currentUnit="pixel" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="borderwidth" name="Border width"/>
+     <color default="#ffffff" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="fillcolor" source="customColor" name="Fill color" defaultAlpha="0.4"/>
+     <group conditionalParam="displayedwhen" conditionalValues="always" uiPreview="false" customize="false" id="displayedWhenAlwaysGrp" name="Display options on hover state">
+      <bool default="False" uiPreview="false" customize="false" id="alwayshoverstate" name="Change display on hover"/>
+      <color default="#ffffff" conditionalParam="alwayshoverstate" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="bordercolorhover" source="customColor" name="Border color on hover" defaultAlpha="1"/>
+      <dimension default="4" minimum="0" currentUnit="pixel" conditionalParam="alwayshoverstate" conditionalValues="true" maximum="9999" uiPreview="false" customize="false" availableUnits="pixel" needAutomatic="false" id="borderwidthhover" name="Border width on hover"/>
+      <color default="#ffffff" conditionalParam="alwayshoverstate" conditionalValues="true" allowDynamicSource="false" uiPreview="false" customize="false" needAlpha="true" id="fillcolorhover" source="customColor" name="Fill color on hover" defaultAlpha="0.6"/>
+     </group>
+    </display>
+    <display type="common">
+     <bool default="False" uiPreview="false" customize="false" id="pauserotationonhover" name="Pause autorotation on hover"/>
+     <string needTranslation="true" default="" uiPreview="false" customize="false" id="tooltipTemplate" name="Tooltip template"/>
+    </display>
+    <action startPitch="0" targetId="-1" category="basic" description="Load a specific panorama or the first panorama of a specific group." callTemplate="loadpanoramaactioncall.tmpl" depends="" sourceId="-1" startFov="0" locked="False" customTargetView="False" type="Object" id="object" name="Go to a panorama or a group" internal="0" contentTemplate="" startYaw="0">
+     <select default="none" uiPreview="false" customize="true" id="sourcetransition" name="Source transition">
+      <item value="none" name="None"/>
+      <item value="zoominonspot" name="Zoom in on the spot"/>
+      <item value="zoomoutonpanorama" name="Zoom out"/>
+     </select>
+     <select default="loadspotview" uiPreview="false" customize="true" id="targettransition" name="Target transition">
+      <item value="none" name="None"/>
+      <item value="spotviewtopanoview" name="Custom view to panorama view"/>
+      <item value="loadspotview" name="Load custom view"/>
+      <item value="loadpanoview" name="Load panorama view"/>
+      <item value="panoviewtospotview" name="Panorama view to custom view"/>
+     </select>
+    </action>
+   </presetAction>
+  </presetActions>
+ </project>
+ <filesCache/>
+</panotour>
